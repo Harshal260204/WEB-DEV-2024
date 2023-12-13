@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+    body > a:hover{
+        color: red;
+    }
+
+    /* body > a:visited{
+        color: green;
+    } */
+
+    h4{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .popup-image{
+        transition: transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .popup-image:hover{
+        transform: scale(1.2);
+        box-shadow: 0 0 20px rgba(155, 199, 24, 0.8);
+    }
+</style>
+<body>
+    <h1>Harshal Ganesh Ingale</h1>
+    <h2>Junior Web Developer</h2>
+    <hr>
+    <ol>
+        <h3>Projects: </h3>
+        <li>
+            <h4>Rohit Sharma Info Blog </h4>
+            <a target="_blank" href="./Rohti_Sharma.html"><img class="popup-image" width="200" src="./Assests/Rohit Sharma.png" alt="Rohit Sharma"></a>
+        </li>
+
+        <li>
+            <h4>My Travel Blog</h4>
+            <a target="_blank" href="./TravelBlog.html"><img class="popup-image" width="200" src="./Assests/Travel blog.png" alt="Travel Blog"></a>
+        </li>
+
+        <li>
+            <h4>Favorite Movies Of 2023</h4>
+            <a target="_blank" href="./PROJ1.html"><img class="popup-image" width="200" src="./Assests/MovieRanking.png" alt="Movie Ranking"></a>
+        </li>
+    </ol>
+    <a  href="./Info/About.html">About Me</a><br>
+    <a href="./Info/Contact.html">Contact Me</a>
+</body>
+</html>

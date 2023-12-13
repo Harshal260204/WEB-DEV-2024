@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors IN CSS</title>
+</head>
+<style>
+    /* here ID selector is used */
+    #red {
+        background-color: blue;
+    }
+
+    /* here CLASS selector is used */
+    .Second {
+        color: red;
+        background-color: black;
+    }
+
+    /* here ELEMENT selector is used  */
+    h2{
+        background-color: pink;
+    }
+
+    /* here CHILD selector is used  */
+    div > p{
+        background-color: burlywood;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    /* here DESCENDENT selector is used  */
+    div a{
+        font-size: larger;
+    }
+
+    /* here PSEUDO selector is used  */
+    a:visited{
+        color: aquamarine;
+    }
+
+    a:hover{
+        background-color: purple;
+    }
+
+    /* here UNIVERSAL selector is used  */
+    *{
+        background-color: darksalmon;
+    }
+
+    table:hover{
+            background-color: #e91010; /* Change the background color on hover */
+            transition: background-color 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle glow effect */
+    }
+
+    table{
+        border: 2px solid black;
+    }
+    
+    td{
+        width: 50px;
+        height: 50px;
+        background-color: solid black;
+        border:1px
+    }
+
+    .black {
+            background-color: #070707;
+        }
+
+        .white {
+            background-color: #fff;
+        }
+</style>
+
+<body>
+    <div id="red">
+        Hey My Name is ID selector
+    </div>
+
+    <div class="Second">
+        Hey My name is CLASS selector
+    </div>
+
+    <h2>
+        Hey My Name is ELEMENT selector
+    </h2>
+
+    <div>
+        <p>
+            Hey My Name is CHILD selector.im inside a pragraph in the DIV ,So i am the child of the div
+        </p>
+    </div>
+
+    <div>
+        <a href="https://www.google.com">Google</a>
+    </div>
+
+    <div>
+        <a href="https://www.shopify.com/">SHOPIFY</a>
+    </div>
+
+    <table>
+        <tr>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+        </tr>
+
+        <tr>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+        </tr>
+
+        <tr>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+        </tr>
+
+        <tr>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+        </tr>
+
+        <tr>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+        </tr>
+
+        <tr>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+        </tr>
+
+        <tr>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+        </tr>
+
+        <tr>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+            <td class="black"></td>
+            <td class="White"></td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+table{
+    height: 200px;
+    width: 200px;
+}
+
+#Rojo{
+    font-weight: normal;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+#Azul{
+    font-weight: normal;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+#Anaranjado{
+    font-weight: normal;
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+}
